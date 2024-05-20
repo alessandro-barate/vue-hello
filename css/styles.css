@@ -16,8 +16,14 @@ CONTAINERS
 }
 
 .container {
-  width: 100%;
-  height: 100vh;
+  width: 86%;
+  height: 87vh;
+  margin: 0 auto;
+}
+
+.button-container {
+  margin: 0 auto;
+  text-align: center;
 }
 
 /*************
@@ -25,12 +31,20 @@ GENERAL
 *************/
 h1 {
   margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(57, 150, 226);
+  cursor: pointer;
+  color: white;
 }
 
 .bg-image {
-  width: 100%;
   background-image: url(../img/cervino-by-night.jpg);
-  background-size: cover;
 }
 
 /***************
