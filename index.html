@@ -8,7 +8,11 @@
   <body>
     <div id="app">
       <h1>{{ message }}</h1>
-      <button @click="imagFunction">Clicca per vedere l'immagine</button>
+
+      <div>
+        <button @click="imgFunction">Clicca per vedere l'immagine</button>
+        <img v-bind:src="imageSrc" />
+      </div>
     </div>
 
     <!-- Vue JS -->
