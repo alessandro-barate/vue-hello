@@ -1,0 +1,45 @@
+/************
+RESET
+************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/***************
+CONTAINERS
+***************/
+#app {
+  width: 100%;
+  padding: 50px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+/*************
+GENERAL
+*************/
+h1 {
+  margin-bottom: 20px;
+}
+
+.bg-image {
+  width: 100%;
+  background-image: url(../img/cervino-by-night.jpg);
+}
+
+/***************
+  UTILITY
+  ***************/
+.white-text {
+  color: white;
+  padding: 20px;
+}
+
+.d-none {
+  display: none;
+}

@@ -3,16 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Vue Hello</title>
   </head>
   <body>
     <div id="app">
-      <h1>{{ message }}</h1>
+      <!-- Main container -->
+      <div :class="color, backgroundImage" class="container">
+        <!-- Title -->
+        <h1>{{ message }}</h1>
+        <!-- FINE Title -->
 
-      <div>
-        <button @click="imgFunction">Clicca per vedere l'immagine</button>
-        <img v-bind:src="imageSrc" />
+        <!-- Button container -->
+        <div>
+          <button @click="imgFunction" :class="display">
+            Clicca per vedere l'immagine
+          </button>
+        </div>
+        <!-- FINE Button container -->
       </div>
+      <!-- FINE Main container -->
     </div>
 
     <!-- Vue JS -->

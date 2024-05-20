@@ -6,13 +6,17 @@ createApp({
   data() {
     return {
       message: "Hello Folks!",
-      imageSrc: this.imgFunction(),
+      color: this.imgFunction(),
+      backgroundImage: this.imgFunction(),
+      display: this.imgFunction(),
     };
   },
 
   methods: {
     imgFunction: function () {
-      this.imageSrc = "./img/cervino-by-night.jpg";
+      this.color = "white-text";
+      this.backgroundImage = "bg-image";
+      this.display = "d-none";
     },
   },
 }).mount("#app");
