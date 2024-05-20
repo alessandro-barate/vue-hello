@@ -30,6 +30,7 @@ h1 {
 .bg-image {
   width: 100%;
   background-image: url(../img/cervino-by-night.jpg);
+  background-size: cover;
 }
 
 /***************
