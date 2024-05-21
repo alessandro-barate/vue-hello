@@ -9,7 +9,9 @@ createApp({
       color: "",
       backgroundImage: "",
       display: "",
-      alt: "",
+      alt: "Cervino in a starry night",
+      displayNone: "d-none",
+      button: "",
     };
   },
 
@@ -18,7 +20,14 @@ createApp({
       this.color = "white-text";
       this.backgroundImage = "bg-image";
       this.display = "d-none";
-      this.alt = "Cervino in a starry night";
+      this.displayNone = "x-button";
+    },
+
+    reset: function () {
+      this.color = "";
+      this.backgroundImage = "";
+      this.display = "";
+      this.displayNone = "d-none";
     },
   },
 }).mount("#app");

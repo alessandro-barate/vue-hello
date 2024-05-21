@@ -7,7 +7,7 @@
     <title>Vue Hello</title>
   </head>
   <body>
-    <div id="app">
+    <div id="app" v-cloak>
       <!-- Main container -->
       <div :class="color, backgroundImage" :alt="" class="container">
         <!-- Title -->
@@ -19,6 +19,7 @@
           <button @click="imgFunction" :class="display">
             Clicca per vedere l'immagine
           </button>
+          <button @click="reset" :class="displayNone, button">X</button>
         </div>
         <!-- FINE Button container -->
       </div>

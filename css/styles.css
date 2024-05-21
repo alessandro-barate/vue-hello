@@ -7,6 +7,10 @@ RESET
   box-sizing: border-box;
 }
 
+[v-cloak] {
+  display: none;
+}
+
 /***************
 CONTAINERS
 ***************/
@@ -40,6 +44,10 @@ button {
   background-color: rgb(57, 150, 226);
   cursor: pointer;
   color: white;
+}
+
+.x-button {
+  background-color: transparent;
 }
 
 .bg-image {
