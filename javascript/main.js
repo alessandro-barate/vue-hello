@@ -9,6 +9,7 @@ createApp({
       color: "",
       backgroundImage: "",
       display: "",
+      alt: "",
     };
   },
 
@@ -17,6 +18,7 @@ createApp({
       this.color = "white-text";
       this.backgroundImage = "bg-image";
       this.display = "d-none";
+      this.alt = "Cervino in a starry night";
     },
   },
 }).mount("#app");
