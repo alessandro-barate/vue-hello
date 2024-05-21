@@ -6,9 +6,9 @@ createApp({
   data() {
     return {
       message: "Hello Folks!",
-      color: this.imgFunction(),
-      backgroundImage: this.imgFunction(),
-      display: this.imgFunction(),
+      color: "",
+      backgroundImage: "",
+      display: "",
     };
   },
 
